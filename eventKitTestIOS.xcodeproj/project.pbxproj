@@ -54,8 +54,8 @@
 		39F31EF52EA16F6C00E83E11 /* Exceptions for "eventKitTestIOS" folder in "TutorialWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				TimerAtributtes.swift,
-				TimerView.swift,
+				TimerLiveActivity/TimerAtributtes.swift,
+				TimerLiveActivity/TimerView.swift,
 			);
 			target = 39F31EDA2EA16AE600E83E11 /* TutorialWidgetExtension */;
 		};
@@ -63,13 +63,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				TutorialWidget.swift,
-			);
-			target = 3999C5202E984F9700908AAD /* eventKitTestIOS */;
-		};
-		39FA352F2E9D9428003743E7 /* Exceptions for "Foudation" folder in "eventKitTestIOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				preview.swift,
 			);
 			target = 3999C5202E984F9700908AAD /* eventKitTestIOS */;
 		};
@@ -82,14 +75,6 @@
 				39F31EF52EA16F6C00E83E11 /* Exceptions for "eventKitTestIOS" folder in "TutorialWidgetExtension" target */,
 			);
 			path = eventKitTestIOS;
-			sourceTree = "<group>";
-		};
-		3999C5552E99344200908AAD /* Foudation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				39FA352F2E9D9428003743E7 /* Exceptions for "Foudation" folder in "eventKitTestIOS" target */,
-			);
-			path = Foudation;
 			sourceTree = "<group>";
 		};
 		39F31EDE2EA16AE600E83E11 /* TutorialWidget */ = {
@@ -126,7 +111,6 @@
 		3999C5182E984F9700908AAD = {
 			isa = PBXGroup;
 			children = (
-				3999C5552E99344200908AAD /* Foudation */,
 				3999C5232E984F9700908AAD /* eventKitTestIOS */,
 				39F31EDE2EA16AE600E83E11 /* TutorialWidget */,
 				3999C5382E98544500908AAD /* Frameworks */,
