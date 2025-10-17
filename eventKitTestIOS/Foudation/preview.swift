@@ -8,9 +8,17 @@ import FoundationModels
 import Playgrounds
 
 #Playground {
-    let session = LanguageModelSession()
     
-    let result = try await session.respond(to: "Dê uma motivação muito curta para que uma pessoa conclua uma tarefa pendente, mas essa motivação deve ser de tom engraçado e humilhante")
+    let instructions = """
+    
+    Dê uma motivação num tom engraçado que motive o usuário
+
+    """
+    
+    
+    let session = LanguageModelSession(instructions: instructions)
+    
+    let result = try await session.respond(to: "Dê uma motivação muito curta para que uma pessoa conclua uma tarefa pendente")
     
     print(result.content)
 }
